@@ -1,0 +1,5 @@
+let prix=[150, 80, 250 ,100]
+console.log(prix.length)
+console.log(prix[0])
+prix[2]=90;
+console.log(prix)
