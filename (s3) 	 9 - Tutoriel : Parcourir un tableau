@@ -1,0 +1,16 @@
+let nombres = [5, 15, 25, 35];
+let somme=0;
+for(let i=0;i<nombres.length;i++){
+somme=somme+nombres[i];
+}console.log(somme)
+
+
+
+let prenoms = ["Ali", "Sara", "Yassine", "Nadia"];
+
+// La boucle commence à l'index 0 et s'arrête avant prenoms.length
+for (let i = 0; i < prenoms.length; i++) {
+    // i représente l'index (0, 1, 2, 3)
+    // prenoms[i] représente la valeur à cet index
+    console.log("Index :", i, "| Prénom :", prenoms[i]);
+}
