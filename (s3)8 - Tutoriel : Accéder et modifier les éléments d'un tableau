@@ -1,0 +1,5 @@
+let temperatures=[19 ,23 ,10, 18]
+console.log("avant",temperatures)
+temperatures[1]=21;
+temperatures[temperatures.length-1]=25;
+console.log("apres",temperatures)
