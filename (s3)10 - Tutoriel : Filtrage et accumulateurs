@@ -1,0 +1,13 @@
+let panier = [20, 150, 45, 200, 80, 120];
+let compteur = 0;
+for(let i=0;i<panier.length;i++){
+if(panier[i]>100){compteur++;}
+}console.log(compteur)
+
+
+
+let panier = [20, 75, 40, 100, 30, 60];
+let total = 0;
+for(let i=0;i<panier.length;i++){
+if(panier[i]>50){total=total+panier[i]}}
+console.log(total)
