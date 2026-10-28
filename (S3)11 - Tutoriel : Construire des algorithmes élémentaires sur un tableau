@@ -1,0 +1,32 @@
+recherche 
+
+let notes = [15, 20, 12, 18, 20, 9, 20];
+let recherche=9;
+ let position=-1;
+for(let i=0;i<notes.length;i++){
+if(notes[i]===recherche){position=i}
+}console.log(position)
+
+min 
+
+
+let notes = [15, 20, 12, 18, 20, 9, 20];
+let min = notes[0];
+
+for(let i=0;i<notes.length;i++){
+if(notes[i]< min){min=notes[i]}
+
+}console.log(min)
+
+
+max 
+
+
+
+let notes = [15, 20, 12, 18, 20, 9, 20];
+let max = notes[0];
+
+for(let i=0;i<notes.length;i++){
+if(notes[i]>max){max=notes[i]}
+
+}console.log(max)
