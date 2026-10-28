@@ -1,0 +1,38 @@
+let notes = [12, 7, 16, 9, 20, 12, 5, 17, 14, 8, 19, 10];
+let somme=0;
+let moyenne=0;
+let max=notes[0];
+let min=notes[0];
+let nbvalide=0;
+let sommevalides=0;
+let moyennevalides=0;
+let nbexceleente=0;
+let sommeexceleente=0;
+let nbfaibles=0;
+let pourcentagevalide=0;
+for(let i=0;i<notes.length;i++){
+let total=notes[i];
+somme=somme+total;
+if(max<notes[i]){max=notes[i]}
+if(min>notes[i]){min=notes[i]}
+if(notes[i]>=10){nbvalide++;sommevalides=sommevalides+total}
+
+if(notes[i]>=16){nbexceleente++;sommeexceleente=sommeexceleente+total}
+if(notes[i]<10){nbfaibles++}
+
+
+}
+pourcentagevalide = (nbvalide / notes.length) * 100;
+moyennevalides = sommevalides / nbvalide;
+moyenne = somme / notes.length;
+console.log(somme)
+console.log(moyenne)
+console.log(max)
+console.log(min)
+console.log(nbvalide)
+console.log(sommevalides)
+console.log(moyennevalides)
+console.log(nbexceleente)
+console.log(sommeexceleente)
+console.log(nbfaibles)
+console.log(pourcentagevalide)
