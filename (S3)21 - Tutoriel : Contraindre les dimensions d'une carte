@@ -1,0 +1,13 @@
+.carte {
+    width: 300px;
+    padding: 20px;
+    border: 4px solid #3b82f6;
+    background-color: #f8fafc;
+    /* La boîte mesurera exactement 300px de large, padding et bordure inclus */
+    box-sizing: border-box; 
+}
+
+/* Ce sélecteur "étoile" cible absolument TOUS les éléments HTML */
+* {
+    box-sizing: border-box;
+}
