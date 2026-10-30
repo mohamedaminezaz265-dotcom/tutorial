@@ -1,0 +1,4 @@
+.liste-cartes {
+    /* Transforme la section en conteneur flex */
+    display: flex; 
+}
