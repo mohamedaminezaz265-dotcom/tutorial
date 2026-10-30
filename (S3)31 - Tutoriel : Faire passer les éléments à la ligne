@@ -1,0 +1,11 @@
+.liste-filtres a{
+background-color: red;
+margin: 4px;
+padding: 5px;
+}
+.liste-filtres{
+display:flex;
+flex-direction:row;
+justify-content: right;
+flex-wrap: wrap;
+}
