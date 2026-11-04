@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f3f5ff;
+    color: #202044;
+}
+
+header {
+    background-color: rgb(21, 21, 141);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header span {
+    color: turquoise;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #3434bd;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: turquoise;
+    color: #15158d;
+}
+
+.hero {
+    background-color: rgb(21, 21, 141);
+    color: white;
+    padding: 85px 20px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color: turquoise;
+    color: #15158d;
+    padding: 12px 20px;
+}
+
+#about {
+    background-color: #e8eafc;
+    padding: 55px 25px;
+}
+
+#about h1, #about h2 {
+    margin-bottom: 20px;
+}
+
+#about p {
+    margin-bottom: 20px;
+}
+
+.skills {
+    color: #15158d;
+    font-weight: bold;
+}
+
+#project {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 45px 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    background-color: white;
+    border: 1px solid #d5d8f0;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.card h1, .card p {
+    margin-bottom: 20px;
+}
+
+.card a {
+    display: inline-block;
+}
+
+.card:hover {
+    background-color: #e8eafc;
+}
+
+#contact {
+    background-color: rgb(21, 21, 141);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+#contact ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+footer {
+    background-color: #10105f;
+    color: white;
+    padding: 20px;
+}
