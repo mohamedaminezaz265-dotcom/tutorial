@@ -1,0 +1,11 @@
+<?php
+$produit="Souris";
+$prix=80;
+$quantity=2;
+$tva=20;
+echo $produit."\n";
+echo $prix."\n";
+echo $quantity."\n";
+echo $total=$prix*$quantity."\n";
+echo $tva=$total*($tva/100)."\n";
+echo $totalttc=$total+$tva;
