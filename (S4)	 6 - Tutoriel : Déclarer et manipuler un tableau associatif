@@ -1,0 +1,13 @@
+<?php
+$articles = [
+    [
+        'id' => 1,
+        'titre' => 'Premier article'
+    ],
+    [
+        'id' => 2,
+        'titre' => 'Deuxième article'
+    ]
+];
+
+echo $articles[0]['titre'] . " et " . $articles[1]['titre'];
