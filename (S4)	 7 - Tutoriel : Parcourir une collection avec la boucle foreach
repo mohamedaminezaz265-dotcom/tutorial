@@ -1,0 +1,37 @@
+<?php
+$articles=[
+[
+ "titre" => "Apprendre Php",
+    "description" => "PHP est un langage de programmation côté serveur.",
+    "categorie" => "Backend",
+    "date_creation" => "2026-03-15"
+],
+[
+ "titre" => "Apprendre html",
+    "description" => "PHP est un langage de programmation côté serveur.",
+    "categorie" => "frontend",
+    "date_creation" => "2025-03-15"
+],
+[
+ "titre" => "Apprendre css",
+    "description" => "PHP est un langage de programmation côté serveur.",
+    "categorie" => "Backend",
+    "date_creation" => "2024-03-15"
+],
+[
+ "titre" => "Apprendre sql",
+    "description" => "PHP est un langage de programmation côté serveur.",
+    "categorie" => "Backend",
+    "date_creation" => "2026-10-15"
+],
+]
+?>
+<?php foreach($articles as $article):?>
+<div>
+<h2><?=htmlspecialchars( $article['titre']) ?></h2>
+<p><?= htmlspecialchars( $article['description']) ?></p>
+<p><?=  htmlspecialchars( $article['categorie']) ?></p>
+</div>
+<p> <?=mb_substr($article['description'],0,30)?></p>
+<p><?= date($article['date_creation']) ?></p>
+<?php endforeach;?>
