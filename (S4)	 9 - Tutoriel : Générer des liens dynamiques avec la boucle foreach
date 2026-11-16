@@ -1,0 +1,22 @@
+1 index.php
+<?php
+$categories = [
+    ['id' => 1, 'libelle' => 'PHP'],
+    ['id' => 2, 'libelle' => 'JavaScript'],
+    ['id' => 3, 'libelle' => 'HTML']
+];
+
+require 'index-template.php';
+
+
+
+2 index-template.php
+<nav>
+<a href="index.php">tous les articles</a>. <br>
+<?php foreach($categories as $cat) :?>
+<a href="index.php?id=<?=$cat['id']?>">. <br>
+<?= htmlspecialchars( $cat['libelle']) ?>
+</a>
+
+</nav>
+<?php endforeach ?>
