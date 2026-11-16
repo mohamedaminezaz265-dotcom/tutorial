@@ -1,0 +1,42 @@
+(1)index.php
+
+
+
+<?php
+$employees=[
+[
+'salaire'=>'10000',
+'nom'=>'mohamed'
+],
+[
+'salaire'=>'7000',
+'nom'=>'med'
+],
+
+[
+'salaire'=>'4000',
+'nom'=>'AMINE'
+],
+    [
+    'salaire'=>'3000',
+    'nom'=>'ana'
+    ],
+
+];
+require 'index-template.php';
+
+
+(2)index-template.php
+
+
+<?php foreach($employees as $employee):?>
+<?php if($employee['salaire']>= 10000):?>
+<p>🏆 Excellent salaire</p>
+<?php elseif($employee['salaire']>=7000):?>
+<p>⭐ Bon salaire</p>
+<?php elseif($employee['salaire']>=4000): ?>
+<p>✅ Salaire moyen</p>
+<?php else: ?>
+<p>⚠️ Salaire faible</p>
+<?php endif ?>
+<?php endforeach;?>
