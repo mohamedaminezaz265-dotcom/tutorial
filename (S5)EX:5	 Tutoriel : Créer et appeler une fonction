@@ -1,0 +1,22 @@
+function afficherTitre(){
+console.log("=== GESTION DES COMMANDES ===")}
+afficherTitre()
+
+
+// Déclaration dans le désordre
+function afficherEtapeTrois() {
+    console.log("3. Fin du processus");
+}
+
+function afficherEtapeUne() {
+    console.log("1. Démarrage du système");
+}
+
+function afficherEtapeDeux() {
+    console.log("2. Chargement des données");
+}
+
+// Les appels définissent l'ordre d'affichage
+afficherEtapeUne();
+afficherEtapeDeux();
+afficherEtapeTrois();
