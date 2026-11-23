@@ -1,0 +1,22 @@
+function saluer(prenom){
+console.log("bonjour",prenom)
+}
+saluer("mohamed")
+saluer("amine")
+saluer("med")
+function calculerTotal(prix, quantite){
+let total=prix*quantite;
+return total;
+}
+total=calculerTotal(25,4)
+
+console.log("total",total)
+function additoiner(a ,b){
+return a+b;
+}
+function doubler(nombre){
+ return nombre * 2;
+}
+let total=additoiner(10,5)
+let result = doubler(total)
+console.log(result)
