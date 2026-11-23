@@ -1,0 +1,37 @@
+function additioner(a,b){
+ return a+b;
+}
+let result=additioner(3,7)
+console.log(result)
+
+
+function estCher(prix){
+return prix>=100;
+}
+console.log(estCher(150))
+console.log(estCher(50))
+
+
+function estMajeur(age){
+if(age>=18){
+return  true;
+}
+else{
+return false;
+}
+}
+console.log(estMajeur(20))
+console.log(estMajeur(16))
+console.log(estMajeur(18))
+
+
+function trouverMinimum(a, b){
+if(a>b){
+return a;
+}
+else{
+return b;
+}
+}
+console.log(trouverMinimum(10,5))
+console.log(trouverMinimum(3,8))
