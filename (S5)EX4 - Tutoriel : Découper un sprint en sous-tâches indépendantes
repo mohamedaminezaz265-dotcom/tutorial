@@ -1,11 +1,9 @@
-## Ordre logique du travail
-
-| **Étape** | **Tâche**                  | **Description**    |
-| --------- | -------------------------- | ------------------ |
-| 1         | Préparer les données       | إنشاء المقالات     |
-| 2         | Créer la fonction          | معالجة المقالات    |
-| 3         | Afficher les articles      | عرض المقالات       |
-| 4         | Tester et vérifier         | التأكد من النتيجة  |
+Ordre logique du travail
+Étape	Tâche	Description
+1	Préparer les données	إنشاء المقالات
+2	Créer la fonction	معالجة المقالات
+3	Afficher les articles	عرض المقالات
+4	Tester et vérifier	التأكد من النتيجة
 
 # Découpage du Sprint S5
 
