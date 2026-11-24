@@ -1,0 +1,43 @@
+let notes = [8, 14, 19, 11, 16, 5, 20];
+function calculerSomme(tableau){
+let somme=0;
+for(let i=0;i<tableau.length;i++){
+somme +=tableau[i]
+}
+return somme
+}
+console.log("calculerSomme",calculerSomme(notes))
+
+
+function calculerMoyenne(tableau) {
+let somme=calculerSomme(tableau);
+return somme/tableau.length
+
+}
+console.log("calculerMoyenne",calculerMoyenne(notes))
+
+
+function trouverMaximum(tableau){
+let max=tableau[0];
+for(let i=0;i<tableau.length;i++){
+if(tableau[i]>max){
+max=tableau[i]
+}
+}
+return max
+}
+console.log("trouverMaximum",trouverMaximum(notes))
+
+
+
+function compterAdmis(tableau){
+let somme=0;
+for(let i=0;i<tableau.length;i++){
+if(tableau[i]>=10){
+somme ++
+}
+}
+return somme
+}
+
+console.log("compterAdmis",compterAdmis(notes))
